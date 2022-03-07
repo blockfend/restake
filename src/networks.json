@@ -1155,5 +1155,24 @@
       }
     ],
     "authzSupport": false
+  },
+  {
+    "name": "sifchain",
+    "prettyName": "Sifchain",
+    "chainId": "sifchain-1",
+    "prefix": "sifchain",
+    "denom": "rowan",
+    "restUrl": [
+      "https://rest.cosmos.directory/sifchain",
+      "https://api.sifchain.finance"
+    ],
+    "rpcUrl": [
+      "https://rpc.cheqd.net",
+      "https://rpc.cheqd.blockfend.com"
+    ],
+    "image": "https://raw.githubusercontent.com/osmosis-labs/osmosis-frontend/master/public/assets/tokens/cheq.svg",
+    "operators": [
+    ],
+    "authzSupport": true
   }
 ]
