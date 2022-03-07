@@ -1157,14 +1157,14 @@
     "authzSupport": false
   },
   {
-    "name": "sifchain",
-    "prettyName": "Sifchain",
-    "chainId": "sifchain-1",
-    "prefix": "sifchain",
-    "denom": "rowan",
+    "name": "cheqd",
+    "prettyName": "cheqd",
+    "chainId": "cheqd-mainnet-1",
+    "prefix": "cheq",
+    "denom": "ncheq",
     "restUrl": [
-      "https://rest.cosmos.directory/sifchain",
-      "https://api.sifchain.finance"
+      "https://api.cheqd.net",
+      "https://api.cheqd.blockfend.com"
     ],
     "rpcUrl": [
       "https://rpc.cheqd.net",
