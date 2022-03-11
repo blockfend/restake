@@ -26,3 +26,59 @@ header a.moniker{
   line-height: 70px;
   font-size: 1.3rem;
 }
+
+/* Shamelessly stolen from https://jsfiddle.net/willwood/gjf139z4/5/ */
+
+.pulsingButton {
+  width: 220px;
+  text-align: center;
+  white-space: nowrap;
+  display: block;
+  margin: 50px auto;
+  padding: 10px;
+  box-shadow: 0 0 0 0 #0dcaf0;
+  border-radius: 10px;
+  -webkit-animation: pulsing 2s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulsing 2s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulsing 2s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulsing 2s #0dcaf0 infinite cubic-bezier(0.66, 0, 0, 1);
+  transition: all 100ms ease-in-out;
+}
+
+
+/* Comment-out to have the button continue to pulse on mouseover */
+
+a.pulsingButton:hover {
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  animation: none;
+  color: #ffffff;
+}
+
+
+/* Animation */
+
+@-webkit-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+  }
+}
+
+@-moz-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+  }
+}
+
+@-ms-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+  }
+}
+
+@keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+  }
+}
