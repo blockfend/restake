@@ -14,8 +14,8 @@ const Network = async (data) => {
     return SigningClient(queryClient.rpcUrl, chain.chainId, gasPrice, wallet, key)
   }
 
-  const getOperator = (operators, operatorAddress) => {
-    return operators.find(elem => elem.address === operatorAddress)
+  const getOperator = (operators, botAddress) => {
+    return operators.find(elem => elem.botAddress === botAddress)
   }
 
   const getOperators = (validators) => {
