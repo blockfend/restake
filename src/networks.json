@@ -3,7 +3,6 @@
     "name": "osmosis",
     "gasPrice": "0.0025uosmo",
     "ownerAddress": "osmovaloper1u5v0m74mql5nzfx2yh43s2tke4mvzghr6m2n5t",
-    "default": true
   },
   {
     "name": "juno",
@@ -94,7 +93,17 @@
   },
   {
     "name": "cheqd",
-    "gasPrice": "25ncheq"
+    "gasPrice": "25ncheq",
+    "default": true,
+    "restUrl": [
+      "https://api.cheqd.net"
+    ],
+    "rpcUrl": [
+      "https://rpc.cheqd.net"
+    ],
+    "autostake": {
+      "batchTxs": 1
+    }
   },
   {
     "name": "umee"
