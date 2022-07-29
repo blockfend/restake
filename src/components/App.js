@@ -769,14 +769,6 @@ class App extends React.Component {
           </p>
         </div>
         <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <a href="https://akash.network" target="_blank" rel="noreferrer" className="col-md-4 mb-0 text-muted">
-            {this.props.theme === 'light'
-              ? (
-                <img src={PoweredByAkash} alt="Powered by Akash" width={200} />
-              ) : (
-                <img src={PoweredByAkashWhite} alt="Powered by Akash" width={200} />
-              )}
-          </a>
 
           <div className="col-md-4 align-items-center text-center me-lg-auto">
             <a href="https://ecostake.com" target="_blank" rel="noreferrer" className="text-reset text-decoration-none d-block mb-2">
